@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  basePath: '/margotai-landing',
+  assetPrefix: '/margotai-landing/',
 }
 
 export default nextConfig
